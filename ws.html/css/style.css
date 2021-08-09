@@ -1,0 +1,41 @@
+/*initialisation*/
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: rgb(0, 255, 64);
+}
+p {
+  color: black;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+body {
+  background-color: lightblue;
+}
+div {
+  border: 1px solid #4caf50;
+  padding: 1px;
+}
+.img2 {
+  float: right;
+}
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: green;
+  color: white;
+  padding: 25px;
+}
+h1:hover {
+  background-color: blue;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+.clearfix {
+  overflow: auto;
+}
